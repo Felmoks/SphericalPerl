@@ -1,0 +1,5 @@
+a 10 print("Input string: " . $row_string)
+a 11 print("ROW HAS 10\n") if grep { $_ eq '10' } @row
+a 14 print("Number of rows: " . scalar @matrix . "\n")
+b 10 @matrix > 5
+b 14
